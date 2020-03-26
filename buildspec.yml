@@ -20,7 +20,7 @@ phases:
 
   pre_build:
     commands:
-    - docker login --username $DOCKER_LOGIN_USER --password $DOCKER_LOGIN_PASSWORD
+    - docker login --username ibuchh --password Shadab12*12*
     - docker pull $SCAN_IMAGE_NAME
 
   build:
