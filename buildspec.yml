@@ -20,7 +20,7 @@ phases:
 
   pre_build:
     commands:
-    - docker login -u ibuchh -p Shadab12*12*
+    - docker login -u ibuchh -p $DOCKER_LOGIN_PASSWORD
     - docker pull $SCAN_IMAGE_NAME
 
   build:
